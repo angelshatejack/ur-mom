@@ -1,0 +1,44 @@
+for i,v in next, game:GetService("Players").LocalPlayer.Character:GetDescendants() do
+    if v:IsA("BasePart") and v.Name ~="HumanoidRootPart" then 
+    game:GetService("RunService").Heartbeat:connect(function()
+    v.Velocity = Vector3.new(-30,0,0)
+    end)
+    end
+    end
+
+    game:GetService("StarterGui"):SetCore("SendNotification", { 
+        Title = "Notification";
+        Text = "Netless Ran";
+        Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+    Duration = 16;
+
+HumanDied = false
+_G.ClickFling=false -- Set this to true if u want.
+plr = game.Players.LocalPlayer
+char=game.Players.LocalPlayer.Character
+ct={}
+te=table.insert
+
+HumanDied=false
+
+function notify(t,tex,dur)
+game.StarterGui:SetCore("SendNotification", {
+    Title = t; 
+    Text = tex; 
+    Duration = dur or 5;
+})
+end
+
+local srv= game:GetService("RunService")
+
+fl=Instance.new('Folder',char);fl.Name='CWExtra'
+
+char.Archivable = true
+local reanim = char:Clone()
+reanim.Name='NexoPD'
+
+for i,v in next, reanim:GetDescendants() do
+if v:IsA('BasePart') or v:IsA('Decal') then
+v.Transparency = 1 
+end 
+end
