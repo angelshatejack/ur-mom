@@ -1,3 +1,5 @@
+game.Players.LocalPlayer.Character["BlockheadBaseballCap"].Name = "Hat1"
+    end
 for i,v in next, game:GetService("Players").LocalPlayer.Character:GetDescendants() do
     if v:IsA("BasePart") and v.Name ~="HumanoidRootPart" then 
     game:GetService("RunService").Heartbeat:connect(function()
@@ -11,8 +13,6 @@ for i,v in next, game:GetService("Players").LocalPlayer.Character:GetDescendants
         Text = "Netless Ran";
         Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
     Duration = 16;
-
-game.Players.LocalPlayer.Character["BlockheadBaseballCap"].Name = "Hat1"
     
 game:GetService("Players").LocalPlayer.Character["Hat1"].Handle:FindFirstChildOfClass("SpecialMesh"):Destroy()
 game:GetService("Players").LocalPlayer.Character["Pal Hair"].Handle:FindFirstChildOfClass("SpecialMesh"):Destroy()
