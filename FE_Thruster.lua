@@ -22,7 +22,7 @@ LocalPlayer.Character.Humanoid.WalkSpeed = 70
 LocalPlayer.Character.Humanoid.JumpPower = 85
 
 HumanDied = false
-_G.ClickFling = true -- Set this to true if u want.
+_G.ClickFling = false -- Set this to true if u want.
 plr = game.Players.LocalPlayer
 char=game.Players.LocalPlayer.Character
 ct={}
