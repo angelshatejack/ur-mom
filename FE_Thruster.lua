@@ -12,7 +12,7 @@ for i,v in next, game:GetService("Players").LocalPlayer.Character:GetDescendants
         Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
     Duration = 16;
 
-game:GetService("Players").LocalPlayer.Character["Hat1"].Handle:FindFirstChildOfClass("SpecialMesh"):Destroy()
+game:GetService("Players").LocalPlayer.Character["BlockheadBaseballCap"].Handle:FindFirstChildOfClass("SpecialMesh"):Destroy()
 game:GetService("Players").LocalPlayer.Character["Pal Hair"].Handle:FindFirstChildOfClass("SpecialMesh"):Destroy()
 game:GetService("Players").LocalPlayer.Character["RobloxVisor2019"].Handle:FindFirstChildOfClass("SpecialMesh"):Destroy()
 game:GetService("Players").LocalPlayer.Character["SamuraiHat"].Handle:FindFirstChildOfClass("SpecialMesh"):Destroy()
