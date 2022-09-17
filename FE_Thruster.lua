@@ -1,8 +1,7 @@
 for i,v in next, game:GetService("Players").LocalPlayer.Character:GetDescendants() do
     if v:IsA("BasePart") and v.Name ~="HumanoidRootPart" then 
     game:GetService("RunService").Heartbeat:connect(function()
-    v.Velocity = Vector3.new(-30,0,0)/
-    end
+    v.Velocity = Vector3.new(-30,0,0)
     end)
     end
     end
@@ -12,7 +11,7 @@ for i,v in next, game:GetService("Players").LocalPlayer.Character:GetDescendants
         Text = "Netless Ran";
         Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
     Duration = 16;
-    
+
 game:GetService("Players").LocalPlayer.Character["Hat1"].Handle:FindFirstChildOfClass("SpecialMesh"):Destroy()
 game:GetService("Players").LocalPlayer.Character["Pal Hair"].Handle:FindFirstChildOfClass("SpecialMesh"):Destroy()
 game:GetService("Players").LocalPlayer.Character["RobloxVisor2019"].Handle:FindFirstChildOfClass("SpecialMesh"):Destroy()
@@ -22,7 +21,7 @@ LocalPlayer.Character.Humanoid.WalkSpeed = 70
 LocalPlayer.Character.Humanoid.JumpPower = 85
 
 HumanDied = false
-_G.ClickFling = true -- Set this to true if u want.
+_G.ClickFling = false -- Set this to true if u want.
 plr = game.Players.LocalPlayer
 char=game.Players.LocalPlayer.Character
 ct={}
