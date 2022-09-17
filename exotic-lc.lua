@@ -1,5 +1,3 @@
-game.Players.LocalPlayer.Character["Starslayer Railgun"].Name = "Meshes/HeavySniper (1)Accessory"
-
 --gh 9239416688,4506945409,8845900648,7604332496,6042998913,4995839295,1029025,10467173753
  game.Players.LocalPlayer.Character.MeshPartAccessory.Handle.SpecialMesh:Destroy()
 
