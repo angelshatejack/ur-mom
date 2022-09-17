@@ -12,7 +12,7 @@ for i,v in next, game:GetService("Players").LocalPlayer.Character:GetDescendants
         Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
     Duration = 16;
 
-game:GetService("Players").LocalPlayer.Character["Hat1"].Handle:FindFirstChildOfClass("SpecialMesh"):Destroy()
+game:GetService("Players").LocalPlayer.Character["BlockheadBaseballCap"].Handle:FindFirstChildOfClass("SpecialMesh"):Destroy()
 game:GetService("Players").LocalPlayer.Character["Pal Hair"].Handle:FindFirstChildOfClass("SpecialMesh"):Destroy()
 game:GetService("Players").LocalPlayer.Character["RobloxVisor2019"].Handle:FindFirstChildOfClass("SpecialMesh"):Destroy()
 game:GetService("Players").LocalPlayer.Character["SamuraiHat"].Handle:FindFirstChildOfClass("SpecialMesh"):Destroy()
@@ -456,8 +456,8 @@ local lookvel = lookvector / reanim.Humanoid.WalkSpeed
 local rightvel = rightvector / reanim.Humanoid.WalkSpeed
 if Mode == '1' then
 if Root.Velocity.y > 1.5 then -- jump
-hatset('Hat1','Torso',CFrame.new(),reanim['Hat1'].Handle.AccessoryWeld.C0:Lerp(CF(-0.8+0*math.cos(sine/13),1+0*math.sin(sine/13),0+0*math.cos(sine/13))*ANGLES(RAD(90+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),1),false)
-reanim['Hat1'].Handle.AccessoryWeld.C0 = reanim['Hat1'].Handle.AccessoryWeld.C0:Lerp(CF(-0.8+0*math.cos(sine/13),1+0*math.sin(sine/13),0+0*math.sin(sine/13))*ANGLES(RAD(90+0*math.cos(sine/13)),RAD(0+0*math.sin(sine/13)),RAD(0+0*math.sin(sine/13))),.3)
+hatset('BlockheadBaseballCap','Torso',CFrame.new(),reanim['BlockheadBaseballCap'].Handle.AccessoryWeld.C0:Lerp(CF(-0.8+0*math.cos(sine/13),1+0*math.sin(sine/13),0+0*math.cos(sine/13))*ANGLES(RAD(90+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),1),false)
+reanim['BlockheadBaseballCap'].Handle.AccessoryWeld.C0 = reanim['BlockheadBaseballCap'].Handle.AccessoryWeld.C0:Lerp(CF(-0.8+0*math.cos(sine/13),1+0*math.sin(sine/13),0+0*math.sin(sine/13))*ANGLES(RAD(90+0*math.cos(sine/13)),RAD(0+0*math.sin(sine/13)),RAD(0+0*math.sin(sine/13))),.3)
 hatset('Pal Hair','Torso',CFrame.new(),reanim['Pal Hair'].Handle.AccessoryWeld.C0:Lerp(CF(0.8+0*math.cos(sine/13),1+0*math.sin(sine/13),0+0*math.cos(sine/13))*ANGLES(RAD(90+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),1),false)
 reanim['Pal Hair'].Handle.AccessoryWeld.C0 = reanim['Pal Hair'].Handle.AccessoryWeld.C0:Lerp(CF(0.8+0*math.cos(sine/13),1+0*math.sin(sine/13),0+0*math.sin(sine/13))*ANGLES(RAD(90+0*math.cos(sine/13)),RAD(0+0*math.sin(sine/13)),RAD(0+0*math.sin(sine/13))),.3)
 hatset('RobloxVisor2019','Torso',CFrame.new(),reanim['RobloxVisor2019'].Handle.AccessoryWeld.C0:Lerp(CF(0+0*math.cos(sine/13),0.7+0*math.sin(sine/13),0+0*math.cos(sine/13))*ANGLES(RAD(90+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),1),false)
@@ -471,8 +471,8 @@ LS.C0=LS.C0:Lerp(CFrame.new(-1.5+0*math.cos(sine/10),0.5+0*math.cos(sine/10),0+0
 RH.C0=RH.C0:Lerp(CFrame.new(0.5+0*math.cos(sine/10),-1+0*math.cos(sine/10),0+0*math.cos(sine/10))*CFrame.Angles(math.rad(-30+-5*math.cos(sine/20)),math.rad(-10+0*math.cos(sine/10)),math.rad(5+0*math.cos(sine/20))),.2) 
 LH.C0=LH.C0:Lerp(CFrame.new(-0.5+0*math.cos(sine/10),-1+0*math.cos(sine/10),0+0*math.cos(sine/10))*CFrame.Angles(math.rad(-40+-5*math.cos(sine/20)),math.rad(10+0*math.cos(sine/10)),math.rad(-5+0*math.cos(sine/10))),.2)
 elseif Root.Velocity.y < -1.5 then -- fall
-hatset('Hat1','Torso',CFrame.new(),reanim['Hat1'].Handle.AccessoryWeld.C0:Lerp(CF(-0.8+0*math.cos(sine/13),1+0*math.sin(sine/13),0+0*math.cos(sine/13))*ANGLES(RAD(90+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),1),false)
-reanim['Hat1'].Handle.AccessoryWeld.C0 = reanim['Hat1'].Handle.AccessoryWeld.C0:Lerp(CF(-0.8+0*math.cos(sine/13),1+0*math.sin(sine/13),0+0*math.sin(sine/13))*ANGLES(RAD(90+0*math.cos(sine/13)),RAD(0+0*math.sin(sine/13)),RAD(0+0*math.sin(sine/13))),.3)
+hatset('BlockheadBaseballCap','Torso',CFrame.new(),reanim['BlockheadBaseballCap'].Handle.AccessoryWeld.C0:Lerp(CF(-0.8+0*math.cos(sine/13),1+0*math.sin(sine/13),0+0*math.cos(sine/13))*ANGLES(RAD(90+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),1),false)
+reanim['BlockheadBaseballCap'].Handle.AccessoryWeld.C0 = reanim['BlockheadBaseballCap'].Handle.AccessoryWeld.C0:Lerp(CF(-0.8+0*math.cos(sine/13),1+0*math.sin(sine/13),0+0*math.sin(sine/13))*ANGLES(RAD(90+0*math.cos(sine/13)),RAD(0+0*math.sin(sine/13)),RAD(0+0*math.sin(sine/13))),.3)
 hatset('Pal Hair','Torso',CFrame.new(),reanim['Pal Hair'].Handle.AccessoryWeld.C0:Lerp(CF(0.8+0*math.cos(sine/13),1+0*math.sin(sine/13),0+0*math.cos(sine/13))*ANGLES(RAD(90+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),1),false)
 reanim['Pal Hair'].Handle.AccessoryWeld.C0 = reanim['Pal Hair'].Handle.AccessoryWeld.C0:Lerp(CF(0.8+0*math.cos(sine/13),1+0*math.sin(sine/13),0+0*math.sin(sine/13))*ANGLES(RAD(90+0*math.cos(sine/13)),RAD(0+0*math.sin(sine/13)),RAD(0+0*math.sin(sine/13))),.3)
 hatset('RobloxVisor2019','Torso',CFrame.new(),reanim['RobloxVisor2019'].Handle.AccessoryWeld.C0:Lerp(CF(0+0*math.cos(sine/13),0.7+0*math.sin(sine/13),0+0*math.cos(sine/13))*ANGLES(RAD(90+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),1),false)
@@ -486,8 +486,8 @@ LS.C0=LS.C0:Lerp(CFrame.new(-1.5+0*math.cos(sine/10),0.5+0*math.cos(sine/10),0+0
 RH.C0=RH.C0:Lerp(CFrame.new(0.5+0*math.cos(sine/10),-1+0*math.cos(sine/10),0+0*math.cos(sine/10))*CFrame.Angles(math.rad(-15+-5*math.cos(sine/20)),math.rad(-10+0*math.cos(sine/10)),math.rad(5+0*math.cos(sine/20))),.2) 
 LH.C0=LH.C0:Lerp(CFrame.new(-0.5+0*math.cos(sine/10),-1+0*math.cos(sine/10),0+0*math.cos(sine/10))*CFrame.Angles(math.rad(-20+-5*math.cos(sine/20)),math.rad(10+0*math.cos(sine/10)),math.rad(-5+0*math.cos(sine/10))),.2)
 elseif Root.Velocity.Magnitude < 2 then -- idle
-hatset('Hat1','Torso',CFrame.new(),reanim['Hat1'].Handle.AccessoryWeld.C0:Lerp(CF(-0.8+0*math.cos(sine/13),1+0*math.sin(sine/13),0+0*math.cos(sine/13))*ANGLES(RAD(90+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),1),false)
-reanim['Hat1'].Handle.AccessoryWeld.C0 = reanim['Hat1'].Handle.AccessoryWeld.C0:Lerp(CF(-0.8+0*math.cos(sine/13),1+0*math.sin(sine/13),0+0*math.sin(sine/13))*ANGLES(RAD(90+0*math.cos(sine/13)),RAD(0+0*math.sin(sine/13)),RAD(0+0*math.sin(sine/13))),.3)
+hatset('BlockheadBaseballCap','Torso',CFrame.new(),reanim['BlockheadBaseballCap'].Handle.AccessoryWeld.C0:Lerp(CF(-0.8+0*math.cos(sine/13),1+0*math.sin(sine/13),0+0*math.cos(sine/13))*ANGLES(RAD(90+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),1),false)
+reanim['BlockheadBaseballCap'].Handle.AccessoryWeld.C0 = reanim['BlockheadBaseballCap'].Handle.AccessoryWeld.C0:Lerp(CF(-0.8+0*math.cos(sine/13),1+0*math.sin(sine/13),0+0*math.sin(sine/13))*ANGLES(RAD(90+0*math.cos(sine/13)),RAD(0+0*math.sin(sine/13)),RAD(0+0*math.sin(sine/13))),.3)
 hatset('Pal Hair','Torso',CFrame.new(),reanim['Pal Hair'].Handle.AccessoryWeld.C0:Lerp(CF(0.8+0*math.cos(sine/13),1+0*math.sin(sine/13),0+0*math.cos(sine/13))*ANGLES(RAD(90+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),1),false)
 reanim['Pal Hair'].Handle.AccessoryWeld.C0 = reanim['Pal Hair'].Handle.AccessoryWeld.C0:Lerp(CF(0.8+0*math.cos(sine/13),1+0*math.sin(sine/13),0+0*math.sin(sine/13))*ANGLES(RAD(90+0*math.cos(sine/13)),RAD(0+0*math.sin(sine/13)),RAD(0+0*math.sin(sine/13))),.3)
 hatset('RobloxVisor2019','Torso',CFrame.new(),reanim['RobloxVisor2019'].Handle.AccessoryWeld.C0:Lerp(CF(0+0*math.cos(sine/13),0.7+0*math.sin(sine/13),0+0*math.cos(sine/13))*ANGLES(RAD(90+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),1),false)
@@ -501,8 +501,8 @@ LS.C0=LS.C0:Lerp(CFrame.new(-1.5+0*math.cos(sine/10),0.5+0*math.cos(sine/10),0+0
 RH.C0=RH.C0:Lerp(CFrame.new(0.5+0*math.cos(sine/10),-1+0*math.cos(sine/10),0+0*math.cos(sine/10))*CFrame.Angles(math.rad(-15+-10*math.cos(sine/20)),math.rad(-10+0*math.cos(sine/10)),math.rad(5+0*math.cos(sine/20))),.2) 
 LH.C0=LH.C0:Lerp(CFrame.new(-0.5+0*math.cos(sine/10),-1+0*math.cos(sine/10),0+0*math.cos(sine/10))*CFrame.Angles(math.rad(-20+-10*math.cos(sine/20)),math.rad(10+0*math.cos(sine/10)),math.rad(-5+0*math.cos(sine/10))),.2)
 elseif Root.Velocity.Magnitude < 75 then -- walk
-hatset('Hat1','Torso',CFrame.new(),reanim['Hat1'].Handle.AccessoryWeld.C0:Lerp(CF(-0.8+0*math.cos(sine/13),1+0*math.sin(sine/13),0+0*math.cos(sine/13))*ANGLES(RAD(90+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),1),false)
-reanim['Hat1'].Handle.AccessoryWeld.C0 = reanim['Hat1'].Handle.AccessoryWeld.C0:Lerp(CF(-0.8+0*math.cos(sine/13),1+0*math.sin(sine/13),0+0*math.sin(sine/13))*ANGLES(RAD(90+0*math.cos(sine/13)),RAD(0+0*math.sin(sine/13)),RAD(0+0*math.sin(sine/13))),.3)
+hatset('BlockheadBaseballCap','Torso',CFrame.new(),reanim['BlockheadBaseballCap'].Handle.AccessoryWeld.C0:Lerp(CF(-0.8+0*math.cos(sine/13),1+0*math.sin(sine/13),0+0*math.cos(sine/13))*ANGLES(RAD(90+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),1),false)
+reanim['BlockheadBaseballCap'].Handle.AccessoryWeld.C0 = reanim['BlockheadBaseballCap'].Handle.AccessoryWeld.C0:Lerp(CF(-0.8+0*math.cos(sine/13),1+0*math.sin(sine/13),0+0*math.sin(sine/13))*ANGLES(RAD(90+0*math.cos(sine/13)),RAD(0+0*math.sin(sine/13)),RAD(0+0*math.sin(sine/13))),.3)
 hatset('Pal Hair','Torso',CFrame.new(),reanim['Pal Hair'].Handle.AccessoryWeld.C0:Lerp(CF(0.8+0*math.cos(sine/13),1+0*math.sin(sine/13),0+0*math.cos(sine/13))*ANGLES(RAD(90+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),1),false)
 reanim['Pal Hair'].Handle.AccessoryWeld.C0 = reanim['Pal Hair'].Handle.AccessoryWeld.C0:Lerp(CF(0.8+0*math.cos(sine/13),1+0*math.sin(sine/13),0+0*math.sin(sine/13))*ANGLES(RAD(90+0*math.cos(sine/13)),RAD(0+0*math.sin(sine/13)),RAD(0+0*math.sin(sine/13))),.3)
 hatset('RobloxVisor2019','Torso',CFrame.new(),reanim['RobloxVisor2019'].Handle.AccessoryWeld.C0:Lerp(CF(0+0*math.cos(sine/13),0.7+0*math.sin(sine/13),0+0*math.cos(sine/13))*ANGLES(RAD(90+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),1),false)
