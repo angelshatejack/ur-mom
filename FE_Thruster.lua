@@ -2,11 +2,11 @@ for i,v in next, game:GetService("Players").LocalPlayer.Character:GetDescendants
     if v:IsA("BasePart") and v.Name ~="HumanoidRootPart" then 
     game:GetService("RunService").Heartbeat:connect(function()
     v.Velocity = Vector3.new(-30,0,0)
-                game.Players.LocalPlayer.Character["BlockheadBaseballCap"].Name = "Hat1"
     end)
     end
     end
-
+game.Players.LocalPlayer.Character["BlockheadBaseballCap"].Name = "Hat1"
+    end
     game:GetService("StarterGui"):SetCore("SendNotification", { 
         Title = "Notification";
         Text = "Netless Ran";
