@@ -146,7 +146,7 @@ end)
 local Player = game.Players.localPlayer
 local Character = Workspace.non
 local LeftArm = Character["Right Arm"]
-local ToolName = "Starslayer Railgun"
+local ToolName = "Meshes/HeavySniper (1)Accessory"
 local Item = Character[ToolName]
 local gw = Item.Handle
 lel = Instance.new("Attachment",gw)
